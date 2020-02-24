@@ -1,0 +1,249 @@
+/** allign**/
+
+.cen {
+  text-align: center;
+}
+
+.lft {
+  text-align: left;
+}
+
+/** body **/
+body {
+  background-color: #c7c8c9;
+}
+.c-box{
+  display: block;
+  float: left;
+}
+.blk-cen{
+  
+  border:2px solid black ;
+
+  text-align: center;
+  
+}
+
+
+.fre-lnct {
+  color: rgb(1, 44, 41);
+  background: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 1rem;
+  padding: 8px 20px;
+  border: 1px solid rgb(52, 158, 153);
+}
+
+/** buttons***/
+
+.c-but {
+  color: black;
+
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: .5rem;
+  padding: .4rem;
+
+
+
+}
+
+.c-but:hover {
+
+  color: white;
+
+
+}
+.free2-but{
+  
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 2rem;
+  border: 2px solid black;
+  
+  
+}
+.free2-but:hover{
+ background-color: black;
+ color: white;
+
+}
+#h-bt {
+  border: none;
+  background: none;
+  font-size: 3rem;
+  color: rgb(1, 44, 41);
+
+}
+
+.send-but {
+  color: rgb(1, 44, 41);
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 6px;
+  padding: 8px 20px;
+  border: 1px solid rgb(1, 44, 41);
+}
+
+.send-but:hover {
+  background-color: black;
+  color: white;
+}
+
+.fr-but {
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  color: black;
+
+}
+
+.bot-but {
+  color: rgb(1, 44, 41);
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 50%;
+  padding: 8px 20px;
+  border: 1px solid rgb(1, 44, 41);
+
+}
+
+.bot-but:hover {
+  background: rgb(1, 44, 41);
+  color: white;
+}
+
+.free-but {
+  color: #ddd;
+}
+
+
+/** header **/
+.head-cont {
+  background-image: url(../img/freelance.jpg!d);
+  background-position: center center;
+  background-size: cover;
+  height: 15rem;
+  display: flex;
+  align-items: left;
+}
+
+/** img **/
+.in-img {
+  display: block;
+  background-image: url(../img/int2.png);
+  background-size: cover;
+  height: 40rem;
+  
+
+}
+/** media **/
+.media{
+  display: flex;
+  justify-content: space-between;
+ flex-direction: row;
+}
+
+.media-item{
+  flex-basis: auto;
+}
+/** nav bar **/
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #0f5751;
+  font-family: Arial;
+
+}
+
+/* Links inside the navbar */
+.navbar a {
+
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 1.1rem;
+  font: bolder;
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  /* Important for vertical align on mobile phones */
+  margin: 0;
+  /* Important for vertical align on mobile phones */
+
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  color: rgb(52, 158, 153);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: rgb(0, 226, 170);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: larger;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/** tables**/
+
+.tb {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: .3rem;
+}
+
+tr:nth-child(even) {
+  background-color: #969693;
+}
